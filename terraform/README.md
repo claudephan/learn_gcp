@@ -6,7 +6,7 @@
 
 
 ## Steps:
-1. ensure yoy have gclod SDK
+1. ensure you have gcloud SDK
     - brew install --cask google-cloud-sdk
     - gcloud init (/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/install.sh to add to path if needed)
     - gcloud auth application-default login (add account to Application Default Credentials (ADC) or terraform to access gCloud)
