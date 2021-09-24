@@ -33,7 +33,7 @@
     - kubectl port-forward svc/airflow-webserver 8080:8080 --namespace airflow  (login is admin/admin)
 
 
-# Finding
+## Finding
 1. Setting region to an actual region (us-west1) vs an actual zone (us-west1-a) will make cluster a regional cluster
     - Node count of 1 results in 3 nodes spun up, one in each zone
 2. Ingress not setup for airflow in helm chart, thus port forward is needed. Next steps could be setting up a lb or virtual server
