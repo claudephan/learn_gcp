@@ -1,0 +1,7 @@
+*.tfstate*
+.terraform*
+.DS_Store
+
+
+# Service Account Key
+ansible/pacific-byte-327001-ed998a6306e0.json
